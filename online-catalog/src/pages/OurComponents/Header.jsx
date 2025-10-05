@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <header className="bg-gray-900 mb-5 rounded-xl">
@@ -258,9 +260,9 @@ const Header = () => {
           {/*  </el-popover>*/}
           {/*</div>*/}
 
-          <a href="/products" className="text-sm/6 font-semibold text-white">
+          <Link to={"/"} className="text-sm/6 font-semibold text-white">
             Главная
-          </a>
+          </Link>
           <a href="#" className="text-sm/6 font-semibold text-white">
             Marketplace
           </a>
